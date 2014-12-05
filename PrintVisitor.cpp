@@ -3,14 +3,6 @@
 #include <iostream>
 using namespace std;
 
-PrintVisitor::PrintVisitor()
-{
-}
-
-
-PrintVisitor::~PrintVisitor()
-{
-}
 
 void PrintVisitor::visit(MenuItem& item)
 {

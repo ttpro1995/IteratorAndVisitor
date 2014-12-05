@@ -9,9 +9,7 @@ PancakeIterator::PancakeIterator(vector<MenuItem> menupancake)
 }
 
 
-PancakeIterator::~PancakeIterator()
-{
-}
+
 
 bool ::PancakeIterator::hasNext()
 {

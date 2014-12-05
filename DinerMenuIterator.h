@@ -10,7 +10,7 @@ private:
 	int max;
 public:
 	DinerMenuIterator(MenuItem *menuItem,int maxitem);
-	~DinerMenuIterator();
+
 	bool hasNext();
 	MenuItem* next();
 };

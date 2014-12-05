@@ -28,9 +28,6 @@ PancakeHouseMenu::PancakeHouseMenu()
 }
 
 
-PancakeHouseMenu::~PancakeHouseMenu()
-{
-}
 
 void PancakeHouseMenu::addItem(string name, string description,
 	bool vegetarian, double price)
@@ -39,11 +36,12 @@ void PancakeHouseMenu::addItem(string name, string description,
 	menu.push_back(Item);
 }
 
+/*
 vector<MenuItem> PancakeHouseMenu::getMenuItems()
 {
 	return menu;
 }
-
+*/
 Iterator* PancakeHouseMenu::createIterator(){
 	return new PancakeIterator(menu);
 };

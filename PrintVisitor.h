@@ -7,7 +7,6 @@ class PrintVisitor :
 {
 public:
 	void visit(MenuItem&);
-	PrintVisitor();
-	~PrintVisitor();
+
 };
 

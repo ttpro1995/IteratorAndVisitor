@@ -12,17 +12,21 @@ int main()
 	DinerMenu diner;
 	PancakeHouseMenu pancake;
 	PrintVisitor MyPrinter;
-	Iterator * Breakfast = pancake.createIterator();
-	Iterator* Lunch = diner.createIterator();
+	
+	
 
 	cout << "Breakfast : \n";
+	Iterator * Breakfast = pancake.createIterator();
 	while (Breakfast->hasNext())
 	{
-		Breakfast->next()->accept(MyPrinter);
+		MenuItem*temp;
+		temp = Breakfast->next();//iterator will step though menu
+			temp->accept(MyPrinter);// visitor will interact  with MenuItem object
 	}
 	cout << endl << endl;
 	
 	cout << "Lunch : \n";
+	Iterator* Lunch = diner.createIterator();
 	while (Lunch->hasNext())
 	{
 		Lunch->next()->accept(MyPrinter);

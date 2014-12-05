@@ -11,9 +11,9 @@ private:
 
 public:
 	PancakeHouseMenu();
-	~PancakeHouseMenu();
+
 	void addItem(string name, string description,bool vegetarian, double price);
-	vector<MenuItem> getMenuItems();
+	//vector<MenuItem> getMenuItems();
 	Iterator* createIterator();
 };
 

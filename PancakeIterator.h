@@ -12,7 +12,7 @@ private:
 	int cur;
 public:
 	PancakeIterator(vector<MenuItem> menupancake);
-	~PancakeIterator();
+
 	bool hasNext();
 	MenuItem* next();
 };

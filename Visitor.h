@@ -6,7 +6,6 @@ class Visitor
 {
 public:
 	virtual void visit(MenuItem&)=0;
-	Visitor();
-	~Visitor();
+
 };
 

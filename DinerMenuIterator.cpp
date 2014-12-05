@@ -10,9 +10,6 @@ DinerMenuIterator::DinerMenuIterator(MenuItem* menuItem,int maxitem)
 }
 
 
-DinerMenuIterator::~DinerMenuIterator()
-{
-}
 
 bool DinerMenuIterator::hasNext()
 {

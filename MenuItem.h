@@ -16,7 +16,6 @@ public:
 		bool vegetarian,
 		double price);
 	MenuItem();
-	~MenuItem();
 	string getName();
 	string getDescription();
 	double getPrice();

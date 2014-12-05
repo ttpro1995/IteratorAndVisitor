@@ -5,7 +5,6 @@ class Visitable
 {
 public:
 	virtual void accept(Visitor&)=0;
-	Visitable();
-	~Visitable();
+
 };
 
