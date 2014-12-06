@@ -7,4 +7,6 @@ using namespace std;
 void PrintVisitor::visit(MenuItem& item)
 {
 	cout << item.getName() << "  " << item.getPrice() << "  \n";
+	cout << item.getDescription() << endl;
 }
+
